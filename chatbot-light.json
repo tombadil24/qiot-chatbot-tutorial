@@ -1,0 +1,89 @@
+{
+    "result": {
+        "iotapplication": {
+            "description": "",
+            "appname": "chatbot-light",
+            "things": [],
+            "rulesdata": {
+                "node_model": {
+                    "freeboardDesc": "",
+                    "freeboardId": "",
+                    "noderedId": "33c0936ca38411e98a2ed769e69425aa",
+                    "version": 1,
+                    "ruleName": "Rule_雲端開關",
+                    "freeboardName": "Dashboard_雲端開關",
+                    "ruleDesc": ""
+                },
+                "rules": "H4sIAAAAAAAAA8VW2W7bOhD9FUN9lWRJVrTksXHce4EmAWrnoQiMgqTGshBaVEkqjhvk3zukN9lZ2wKt/CDPcJZzZoakbh6cqnBOnWiQnwTpgPhZkpAkc1xHrxrABU0oCpxQ4CiNuFj2QufR3bmlEFM286M8zqN479ZW3yhRYBRzWKDmwanJwgY0ssercq5NYPOebE0KmJGWa7T6EAR5fHaOFibMmeBCPtGORG1MPdI0HDy1UhoW7kde1bcXhI2taEzcMZQCetf/u18EFVq4V/erEmpvTGrlXtO21q17RmpNJHDu/gf8DnTFSO8SWnAVGnkKZDXDpFBUGpC2lrjiSFCA+WeEK3h0nYLI22eJ5Gmc5k+IdLX/jMgWO2uVFovJUaeua11pDkXPLmDb3S6v+GOaD4JjXgfav8zrcTNsY0205WEweGwN7fnhuiO8hQPNcWkaUoJn60CJ9Chht6UUbV2cbcO+M8RrnjNifi95qqp4M/fMPs9EMA6Np+FeP3UKKX3NiQpZgPzlXL8Fc1kVJeiXcNrnZa+3msLgFd9fJWlnamYHe2/+1yb8ERGoSnd36aUowPtyPuwNiZpTQWSBqOc4MxMhOM4NmljsqCUcj+/xsrIn9FZZ4GYZCbkgZmcMh/2Li/5XfByT6Acok0ndO6dxhorV+l2inOBrZV9sLbG11KAU4AulwMDdXBSQZUGYMp/ghVFAdnBRrK+YDZ0JofakqZioUSw6pGyrnNNwHzQi4SAmmQ+zhOadoHOtm15Vo+LHs3fbJhf+a6W51vpXja6EsV+AngsTG4fDLDdckG33sQBLUpYgh4KtvZFreIJsDfXAzJQ0Bbu5cQZBHqWU+LRgOcliZzrdgQ7jIosKSv04pFES7UHjLm/Ld0AmTFd3sL2FsExK8G5DmVjgMOquCnGmG5xhF+ge1THgHSq1rDSbvwNWI0UDUmMKPLZWpmz+eOu7XZusYy6U4SlbbkE8OGby4Ls5jvGPbcOdUSkt7ZfG4bLdlfv1KRKeA7vF2TYfF1gTExoaUsld20Srm1ZjrsiWIo7SdSnSQbdnOYsTGtPEjyGK48yZujfOrDg5yTKW+lidMMu6fTw2Pxw+Cd9bUPqtun02nz9XB4P36XxiGRiG+l7vZtSEPe33wzzywyTzQz/pX11+M1tFc7UbxyTYtDk6mMfjoevwOKb4Bzxsa36LyGj0EpHoTSLTn5Nm0KTECgAA"
+            },
+            "freeboarddata": {
+                "freeboardSettings": {
+                    "allow_edit": true,
+                    "isShare": false,
+                    "columns": 3,
+                    "plugins": []
+                },
+                "panes": [
+                    {
+                        "widgets": [
+                            {
+                                "datasourceSettings": [
+                                    {
+                                        "dataSourceId": "5d269fde9c31dc0032871de0",
+                                        "isDatasource": true,
+                                        "field_name": "value",
+                                        "script": ""
+                                    }
+                                ],
+                                "widgetSettings": {
+                                    "units": "°C",
+                                    "max_value": "125",
+                                    "min_value": "-40",
+                                    "value": "datasources[\"qiotrule_USER_TOPIC_55aa84b8\"][\"value\"]",
+                                    "title": "Dashboard"
+                                },
+                                "widgettype": "gauge"
+                            }
+                        ],
+                        "created_on": "2019-07-11T02:33:02.456000Z",
+                        "panesSetting": {
+                            "width": 1,
+                            "col_width": 1,
+                            "col": {
+                                "0": 0,
+                                "1": 1,
+                                "3": 1
+                            },
+                            "row": {
+                                "0": 1,
+                                "1": 1,
+                                "3": 1
+                            }
+                        }
+                    }
+                ],
+                "description": "",
+                "fbversion": "1.1.400",
+                "name": "Dashboard_雲端開關",
+                "dataSources": [
+                    {
+                        "datasourceSetting": {
+                            "display_name": "Name",
+                            "required": true,
+                            "type": "text",
+                            "name": "name"
+                        },
+                        "freeboardID": "5d269fde9c31dc0032871ddf",
+                        "name": "Dashboard",
+                        "type": "Dashboard",
+                        "qiot_supported": false,
+                        "dataSourceId": "5d269fde9c31dc0032871de0",
+                        "resourceID": null,
+                        "thingID": null
+                    }
+                ]
+            },
+            "version": "1.1.400"
+        }
+    }
+}
